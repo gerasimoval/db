@@ -1,0 +1,1 @@
+pg_restore -h localhost -p 5432 -U postgres -d old_db -v "/usr/local/backup/database.backup"
